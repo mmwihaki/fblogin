@@ -10,7 +10,7 @@
     color: white;
 }
 
-body{
+body, #body{
     background-color: black;
 }
 
@@ -41,5 +41,28 @@ main{
 .answer {
     border-top: 1px solid black;
     display: none;
+}
+
+
+/* color boxes */
+
+.color{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#red {
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
 }
 
