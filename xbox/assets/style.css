@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Redressed;
+    src: url(Redressed-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.b-nav{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-p{
+    padding-left: 20px;
+   
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 46px;
+
+    position: absolute;
+    width: 289px;
+    height: 67px;
+    left: 142px;
+    top: 860px;
+
+    background: #7EB903;
+}
+
+button > p{
+    position: static;
+    left: 15.92%;
+    right: 15.92%;
+    top: 28.36%;
+    bottom: 28.36%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+    color: white;
+}

@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#main-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    height: 200px;
+    width: 33%;
+    border-radius: 5px;
+}
+
+#start{
+    background-color: red;
+}
+
+#middle{
+    background-color: green;
+
+}
+
+#end{
+    background-color: blue;
+}
+
+@media screen and (max-width: 590px) {
+    #main-box{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    #middle{
+        display: none;
+    }
+}

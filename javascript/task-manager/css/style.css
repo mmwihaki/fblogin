@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Ubuntu-Mono;
+    src: url('UbuntuMono-Regular.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu-Mono;
+}
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header{
+    height: 70px;
+    background-color: #dba6a6;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+}
+
+form{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form input{
+    font-size: 22px;
+    padding: 8px 10px;
+}
+
+input[type='text'] {
+    width: 50%;
+}
+
+input[type='submit'] {
+    background-color: #dba6a6;
+    color: white;
+    border: 1px solid #dba6a6;
+    border-radius: 5px;
+}
+
+
+input[type='submit']:hover {
+    background-color: #fff;
+    color: #dba6a6;
+
+}
+
+.task{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.del{
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0 4px;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+    cursor: pointer;
+} 
+
+.del:hover{
+    background-color: #fff;
+    color: #ff0000;
+}

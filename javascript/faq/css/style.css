@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Netflix-Sans;
+    src: url('NetflixSansRegular.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Netflix-Sans;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    margin: 15px 0;
+}
+
+main{
+    width: 40%;
+    margin: 10px auto;
+}
+
+.question, .answer{
+    font-size: 22px;
+    padding: 15px;
+    background-color: #303030;
+}
+
+.question{
+    margin-top: 10px;
+}
+
+.question span{
+    float: right;
+}
+
+.answer {
+    border-top: 1px solid black;
+    display: none;
+}
+

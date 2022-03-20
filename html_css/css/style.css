@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Quintessential';
+    src: url(Quintessential-Regular.ttf);
+}
+
+*{
+    color: blue;
+    font-family: 'Quintessential';
+}
+
+h1{
+    color: red;
+}
+
+.title{
+    text-align: center;
+}
+
+#fifth{
+    text-decoration: underline;
+
+}
+
+h2, h3{
+    color: purple;
+}
+
+div > p{
+    font-size: 25px;
+}
+
+button{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 25px;
+    padding: 12px 14px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
