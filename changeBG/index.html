@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change BG</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        button {
+            font-size: 28px;
+            padding: 12px 14px;
+            margin-right: 10px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <button>green</button>
+    <button>red</button>
+    <button>blue</button>
+    
+
+    <script>
+        let body = document.querySelector('body');
+        let buttons = document.querySelectorAll('button');
+
+        buttons.forEach( button =>{
+            button.addEventListener('click', function(){
+                body.style.backgroundColor = button.textContent
+            })
+        } )
+        
+    </script>
+
+</body>
+</html>

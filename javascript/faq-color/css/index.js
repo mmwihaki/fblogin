@@ -21,24 +21,39 @@ questions.forEach(question => {
 
 let body = document.querySelector('#body');
 let colors = document.querySelectorAll('.color')
-let red = document.querySelector('#red');
-let green = document.querySelector('#green');
-let yellow = document.querySelector('#yellow');
+// let red = document.querySelector('#red');
+// let green = document.querySelector('#green');
+// let yellow = document.querySelector('#yellow');
 let title = document.querySelector('.title')
 
+colors.forEach(color => {
+    color.addEventListener('click', function () {
+        body.style.backgroundColor = color.getAttribute('id')
+        if (color.getAttribute('id') === 'yellow') {
+            title.style.color = 'black'
+        } else {
+            title.style.color = 'white'
+        }
+    })
+})
 
-red.addEventListener('click', function onClick(){
-    body.style.backgroundColor = 'red'
-});
+// if (condition) {
+//     execution
+// }
 
-green.addEventListener('click', function onClick(){
-    body.style.backgroundColor = 'green'
-});
 
-yellow.addEventListener('click', function onClick(){
-    body.style.backgroundColor = 'yellow'
-    title.style.color = 'black'
-});
+// red.addEventListener('click', function onClick(){
+//     body.style.backgroundColor = 'red'
+// });
+
+// green.addEventListener('click', function onClick(){
+//     body.style.backgroundColor = 'green'
+// });
+
+// yellow.addEventListener('click', function onClick(){
+//     body.style.backgroundColor = 'yellow'
+//     title.style.color = 'black'
+// });
 
 
 
@@ -56,4 +71,4 @@ yellow.addEventListener('click', function onClick(){
 //             body.style.backgroundColor = 'black'
 //         }
 //     })
-// })
+// });
